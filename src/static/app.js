@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const spotsLeft = details.max_participants - details.participants.length;
 
-
+pytest tests/pytest tests/
         // Create participants list HTML with delete icon
         let participantsHTML = "<ul class='participants-list'>";
         if (details.participants.length > 0) {
